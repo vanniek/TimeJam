@@ -1,0 +1,10 @@
+{
+"name": "Time Jam",
+"version": "0.0.1",
+"manifest_version": 2,
+"description": "Replace your new tab with a simple dashboard that allows you to 
+play soundcloud music and more.",
+"chrome_url_overrides": {
+"newtab": "index.html"
+}
+}
