@@ -1,0 +1,48 @@
+body {
+  font-family: Helvetica Neue, Arial, sans-serif;
+  margin-top: 200px;
+  color: #f2f3f1;
+  background-color: #070913;
+}
+
+input {
+  margin-top: 20px;
+  border: none;
+  border-bottom: 2px solid #f2f3f1;
+  background-color: transparent;
+  width: 500px;
+  font-family: Helvetica Neue, Arial, sans-serif;
+  font-size: 20pt;
+  margin-right: 13px;
+  color: white;
+}
+
+#list {
+  max-width: 440px;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 13px;
+  padding-left: -15px;
+}
+
+li {
+  font-size: 12px;
+}
+
+#clock {
+  font-weight: 300;
+  font-size: 100px;
+}
+
+#wrap {
+  text-align: center;
+}
+
+#player {
+  background-color: transparent;
+
+}
+
+iframe {
+
+}
