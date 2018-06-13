@@ -7,7 +7,7 @@ function newSong() {
   var frame = document.getElementById('soundcloud');
   var ul = document.getElementById('list');
   var li = document.createElement('li');
-  var scMatch = item.match(/^https:\/\/soundcloud\.com\/[a-z1-9-]*\/[a-z1-9-]*\/?$/);
+  var scMatch = item.match(/^https?:\/\/(soundcloud\.com|snd\.sc)\/(.*)$/);
   if(scMatch != null) {
       frame.src = scUrl;
       li.appendChild(document.createTextNode(item));
