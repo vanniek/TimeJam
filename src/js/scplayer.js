@@ -10,8 +10,11 @@ function newSong() {
   var scMatch = item.match(/^https?:\/\/(soundcloud\.com|snd\.sc)\/(.*)$/);
   if(scMatch != null) {
       frame.src = scUrl;
-      li.appendChild(document.createTextNode(item));
-      ul.appendChild(li);
+      if (songs.indexOf(item) < 0) {
+          songs.push(item);
+          li.appendChild(document.createTextNode(item));
+          ul.appendChild(li);
+      }
     } else {
       alert('This is not a valid soundcloud link.');
     }
